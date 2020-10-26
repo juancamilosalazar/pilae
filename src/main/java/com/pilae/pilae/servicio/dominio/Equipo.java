@@ -1,4 +1,4 @@
-package com.pilae.pilae.service.domain;
+package com.pilae.pilae.servicio.dominio;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

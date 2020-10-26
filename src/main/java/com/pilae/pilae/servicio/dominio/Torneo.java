@@ -1,4 +1,4 @@
-package com.pilae.pilae.service.domain;
+package com.pilae.pilae.servicio.dominio;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,9 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Deporte implements java.io.Serializable{
-
+public class Torneo implements java.io.Serializable{
     private Long codigo;
     private String nombre;
+    private String descripcion;
+    private Deporte fkDeporte;
 }
