@@ -1,6 +1,6 @@
 package repositorio.torneo.impl;
-import repositorio.entidad.TorneoEntidad;
-import repositorio.excepciones.ResourceNotFoundException;
+import repositorio.base.entidad.TorneoEntidad;
+import repositorio.base.excepciones.ResourceNotFoundException;
 import repositorio.torneo.TorneoRepositorioJpa;
 import servicio.dominio.Torneo;
 import servicio.repositorio.TorneoRepositorio;

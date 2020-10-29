@@ -1,7 +1,9 @@
 package servicio;
 import servicio.dominio.Equipo;
 import java.util.List;
+import org.springframework.transaction.annotation.Transactional;
 
+@Transactional
 public interface EquipoServicio {
 
     List<Equipo> obtenerTodos() throws Exception;

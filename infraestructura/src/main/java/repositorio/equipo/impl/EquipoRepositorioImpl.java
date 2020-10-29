@@ -1,8 +1,8 @@
 package repositorio.equipo.impl;
 
-import repositorio.entidad.EquipoEntidad;
+import repositorio.base.entidad.EquipoEntidad;
 import repositorio.equipo.EquipoRepositorioJpa;
-import repositorio.excepciones.ResourceNotFoundException;
+import repositorio.base.excepciones.ResourceNotFoundException;
 import servicio.dominio.Equipo;
 import servicio.repositorio.EquipoRepositorio;
 import org.modelmapper.ModelMapper;

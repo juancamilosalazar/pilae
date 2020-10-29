@@ -1,4 +1,4 @@
-package repositorio.entidad;
+package repositorio.base.entidad;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -15,7 +15,7 @@ public class DeporteEntidad implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_deporte", nullable = false)
+    @Column(name = "id_deporte")
     private long codigo;
     @Column(name = "nombre")
     private String nombre;

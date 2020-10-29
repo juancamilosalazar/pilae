@@ -1,4 +1,4 @@
-package repositorio.entidad;
+package repositorio.base.entidad;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -15,16 +15,16 @@ public class TorneoEntidad implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_torneo", nullable = false)
+    @Column(name = "id_torneo")
     private Long codigo;
     @Column(name = "nombre")
     private String nombre;
     @Column(name = "descripcion")
     private String descripcion;
 
-    @JoinColumn(name = "id_deporte", nullable = false)
+    @JoinColumn(name = "id_deporte")
     @ManyToOne(cascade = CascadeType.PERSIST)
-    private DeporteEntidad fkDeporte;
+    private DeporteEntidad deporteEntidad;
 
     public Long getCodigo() {
         return codigo;
@@ -50,11 +50,11 @@ public class TorneoEntidad implements Serializable {
         this.descripcion = descripcion;
     }
 
-    public DeporteEntidad getFkDeporte() {
-        return fkDeporte;
+    public DeporteEntidad getDeporteEntidad() {
+        return deporteEntidad;
     }
 
-    public void setFkDeporte(DeporteEntidad fkDeporte) {
-        this.fkDeporte = fkDeporte;
+    public void setDeporteEntidad(DeporteEntidad deporteEntidad) {
+        this.deporteEntidad = deporteEntidad;
     }
 }

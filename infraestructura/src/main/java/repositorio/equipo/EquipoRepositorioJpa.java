@@ -1,8 +1,8 @@
 package repositorio.equipo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import repositorio.entidad.EquipoEntidad;
-import repositorio.entidad.TorneoEntidad;
+import repositorio.base.entidad.EquipoEntidad;
+import repositorio.base.entidad.TorneoEntidad;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

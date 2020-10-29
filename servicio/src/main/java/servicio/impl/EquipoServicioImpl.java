@@ -61,7 +61,7 @@ public class EquipoServicioImpl implements EquipoServicio {
 
     private void ObtenerTorneoDelPartido(Long torneoId, Equipo equipo) {
         Torneo torneo =torneoRepositorio.obtenerTroneoPorId(torneoId);
-        equipo.setFkTorneo(torneo);
+        equipo.setTorneo(torneo);
     }
 
 }
