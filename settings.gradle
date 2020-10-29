@@ -1,1 +1,10 @@
 rootProject.name = 'pilae'
+include 'controller'
+include 'repositorio'
+include 'servicio'
+include 'controlador'
+include 'servicio'
+include 'infraestructura'
+include 'infraestructura'
+include 'utilidad'
+
