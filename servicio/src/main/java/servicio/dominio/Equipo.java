@@ -1,13 +1,13 @@
 package servicio.dominio;
 
-import lombok.AllArgsConstructor;
+/*import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor*/
 public class Equipo implements java.io.Serializable{
 
     private Long codigo;

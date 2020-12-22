@@ -1,12 +1,12 @@
 package servicio.impl;
 
-import servicio.dominio.Equipo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import servicio.EquipoServicio;
+import servicio.dominio.Equipo;
 import servicio.dominio.Torneo;
 import servicio.repositorio.EquipoRepositorio;
 import servicio.repositorio.TorneoRepositorio;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

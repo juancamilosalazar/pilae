@@ -1,10 +1,7 @@
 rootProject.name = 'pilae'
-include 'controller'
 include 'repositorio'
+include ':controlador', ':servicio'
 include 'servicio'
-include 'controlador'
-include 'servicio'
-include 'infraestructura'
-include 'infraestructura'
+include ':infraestructura', ':servicio'
 include 'utilidad'
 

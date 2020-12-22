@@ -1,13 +1,13 @@
 package servicio.dominio;
 
-import lombok.AllArgsConstructor;
+/*import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor*/
 public class Torneo implements java.io.Serializable{
     private Long codigo;
     private String nombre;
