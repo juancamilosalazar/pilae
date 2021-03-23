@@ -1,0 +1,2 @@
+com/example/multimodule/repository/application/EquipoControladorTest.java
+ com.example.multimodule.repository.application.EquipoControladorTest

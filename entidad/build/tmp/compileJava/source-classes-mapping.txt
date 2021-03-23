@@ -1,0 +1,6 @@
+com/example/multimodule/entidad/EquipoEntidad.java
+ com.example.multimodule.entidad.EquipoEntidad
+com/example/multimodule/entidad/DeporteEntidad.java
+ com.example.multimodule.entidad.DeporteEntidad
+com/example/multimodule/entidad/TorneoEntidad.java
+ com.example.multimodule.entidad.TorneoEntidad

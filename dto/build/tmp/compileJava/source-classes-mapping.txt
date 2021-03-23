@@ -1,0 +1,6 @@
+com/example/multimodule/dto/Torneo.java
+ com.example.multimodule.dto.Torneo
+com/example/multimodule/dto/Deporte.java
+ com.example.multimodule.dto.Deporte
+com/example/multimodule/dto/Equipo.java
+ com.example.multimodule.dto.Equipo
