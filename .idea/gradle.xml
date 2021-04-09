@@ -9,12 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/application" />
+            <option value="$PROJECT_DIR$/controlador" />
             <option value="$PROJECT_DIR$/dto" />
             <option value="$PROJECT_DIR$/entidad" />
             <option value="$PROJECT_DIR$/infraestructura" />
-            <option value="$PROJECT_DIR$/library" />
-            <option value="$PROJECT_DIR$/service" />
             <option value="$PROJECT_DIR$/servicio" />
             <option value="$PROJECT_DIR$/transversal" />
           </set>

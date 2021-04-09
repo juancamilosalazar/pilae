@@ -1,0 +1,12 @@
+com/example/multimodule/infraestructura/equipo/EquipoRepositorio.java
+ com.example.multimodule.infraestructura.equipo.EquipoRepositorio
+com/example/multimodule/infraestructura/torneo/TorneoRepositorio.java
+ com.example.multimodule.infraestructura.torneo.TorneoRepositorio
+com/example/multimodule/infraestructura/equipo/impl/EquipoRepositorioImpl.java
+ com.example.multimodule.infraestructura.equipo.impl.EquipoRepositorioImpl
+com/example/multimodule/infraestructura/equipo/EquipoRepositorioJpa.java
+ com.example.multimodule.infraestructura.equipo.EquipoRepositorioJpa
+com/example/multimodule/infraestructura/torneo/impl/TorneoRepositorioImpl.java
+ com.example.multimodule.infraestructura.torneo.impl.TorneoRepositorioImpl
+com/example/multimodule/infraestructura/torneo/TorneoRepositorioJpa.java
+ com.example.multimodule.infraestructura.torneo.TorneoRepositorioJpa

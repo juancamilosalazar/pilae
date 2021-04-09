@@ -1,8 +1,6 @@
 rootProject.name = 'gs-multi-module'
 
-include 'library'
-include 'application'
-include 'service'
+include 'controlador'
 include 'dto'
 include 'servicio'
 include 'infraestructura'
