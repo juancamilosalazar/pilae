@@ -1,4 +1,0 @@
-com/example/multimodule/repository/servicio/impl/EquipoServicioImpl.java
- com.example.multimodule.repository.servicio.impl.EquipoServicioImpl
-com/example/multimodule/repository/servicio/EquipoServicio.java
- com.example.multimodule.repository.servicio.EquipoServicio

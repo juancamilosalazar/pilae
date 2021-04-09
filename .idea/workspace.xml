@@ -19,7 +19,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="156ebbdd-e54b-4640-83b8-e0a7144bcbd4" name="Default Changelist" comment="" />
+    <list default="true" id="156ebbdd-e54b-4640-83b8-e0a7144bcbd4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/bootJarMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/classes/java/main/com/example/multimodule/repository/service/MyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/classes/java/main/com/example/multimodule/repository/service/ServiceProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/classes/java/test/com/example/multimodule/repository/service/MyServiceTest$TestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/classes/java/test/com/example/multimodule/repository/service/MyServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/libs/library-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/example/multimodule/repository/service/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/example/multimodule/repository/service/ServiceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/test/java/com/example/multimodule/repository/service/MyServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/bootJarMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/classes/java/main/com/example/multimodule/repository/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/libs/service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/example/multimodule/repository/Test.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +108,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pmLrI5SAz4VDrg2GtlTPFIwtsg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

@@ -1,3 +1,0 @@
-com/example/multimodule/repository/service/MyServiceTest.java
- com.example.multimodule.repository.service.MyServiceTest
- com.example.multimodule.repository.service.MyServiceTest$TestConfiguration
