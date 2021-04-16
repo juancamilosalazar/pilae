@@ -16,7 +16,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class EquipoEnsambladorEntidad implements EnsambladorEntidad<EquipoEntidad, EquipoDominio> {
 
-	@Autowired
 	private ModelMapper modelMapper = new ModelMapper();
 	
 	private static final EnsambladorEntidad<EquipoEntidad, EquipoDominio> instancia = new EquipoEnsambladorEntidad();

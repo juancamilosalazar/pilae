@@ -16,3 +16,7 @@ com/example/multimodule/transversal/excepciones/base/BaseExcepcion.java
  com.example.multimodule.transversal.excepciones.base.BaseExcepcion
 com/example/multimodule/transversal/excepciones/base/TipoExcepcionEnum.java
  com.example.multimodule.transversal.excepciones.base.TipoExcepcionEnum
+com/example/multimodule/transversal/excepciones/PILAETransversalExepcion.java
+ com.example.multimodule.transversal.excepciones.PILAETransversalExepcion
+com/example/multimodule/transversal/excepciones/PILAEDominioExcepcion.java
+ com.example.multimodule.transversal.excepciones.PILAEDominioExcepcion

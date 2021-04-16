@@ -5,7 +5,7 @@ import com.example.multimodule.dominio.TorneoDominio;
 import com.example.multimodule.entidad.EquipoEntidad;
 import com.example.multimodule.entidad.TorneoEntidad;
 import com.example.multimodule.infraestructura.equipo.EquipoRepositorioJpa;
-import com.example.multimodule.infraestructura.torneo.TorneoRepositorio;
+import com.example.multimodule.infraestructura.torneo.TorneoRepositorioJpa;
 import com.example.multimodule.repository.servicio.ensamblador.entidad.implementacion.EquipoEnsambladorEntidad;
 import com.example.multimodule.repository.servicio.negocio.EquipoServicio;
 import com.example.multimodule.repository.servicio.utilitario.TorneoConvertorUtilitario;
@@ -24,13 +24,12 @@ import java.util.List;
 public class EquipoServicioImpl  implements EquipoServicio {
 
     private EquipoRepositorioJpa equipoRepositorio;
-    private TorneoRepositorio torneoRepositorio;
-    private ModelMapper modelMapper = new ModelMapper();
+    private TorneoRepositorioJpa torneoRepositorio;
 
 
 
     @Autowired
-    public EquipoServicioImpl(EquipoRepositorioJpa equipoRepositorio, TorneoRepositorio torneoRepositorio) {
+    public EquipoServicioImpl(EquipoRepositorioJpa equipoRepositorio, TorneoRepositorioJpa torneoRepositorio) {
         this.equipoRepositorio = equipoRepositorio;
         this.torneoRepositorio = torneoRepositorio;
     }
@@ -142,7 +141,11 @@ public class EquipoServicioImpl  implements EquipoServicio {
     }
 
     private void ObtenerTorneoDelPartido(Long torneoId, EquipoDominio equipo) {
-        TorneoEntidad torneo =torneoRepositorio.obtenerTroneoPorId(torneoId);
+        TorneoEntidad torneo =torneoRepositorio.findById(torneoId).orElseThrow(()->{
+            String mensajeUsuario = "Torneo no encontrado";
+            String mensajeTecnico = "Torneo no encontrado";
+            throw PILAEDominioExcepcion.crear(TipoExcepcionEnum.NEGOCIO, mensajeUsuario, mensajeTecnico);
+        });
         TorneoDominio torneoDominio = TorneoConvertorUtilitario.convertirTorneoEntidadEnTorneoDominio(torneo);
         equipo.setTorneo(torneoDominio);
     }

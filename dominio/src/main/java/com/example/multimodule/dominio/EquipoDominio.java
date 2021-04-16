@@ -16,6 +16,9 @@ public class EquipoDominio implements java.io.Serializable{
         this.torneo = torneo;
     }
 
+    public EquipoDominio() {
+    }
+
     public Long getCodigo() {
         return codigo;
     }

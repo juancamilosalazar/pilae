@@ -47,8 +47,8 @@ public class EquipoControlador {
 
 			if (datosValidos) {
 				equipoFachada.crear(equipo,torneoId);
-				//String mensajeUsuario = MensajesHelper.obtenerMensaje(CodigosPaisControlador.USUARIO_INFORMACION_CREAR_PAIS).getContenido();
-				respuesta.agregarMensaje("mensajeUsuario");
+				String mensajeUsuario = "equipo creado";
+				respuesta.agregarMensaje(mensajeUsuario);
 				respuesta.setEstado(EstadoRespuestaEnum.EXITO);
 				respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.OK);
 			} else {
@@ -60,8 +60,8 @@ public class EquipoControlador {
 			respuesta.setEstado(EstadoRespuestaEnum.ERROR);
 			respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
 		} catch (Exception excepcion) {
-			//String mensajeUsuario = MensajesHelper.obtenerMensaje(CodigosPaisControlador.USUARIO_ERROR_INESPERADO_CREAR_PAIS).getContenido();
-			//respuesta.agregarMensaje(mensajeUsuario);
+			String mensajeUsuario = "error inesperado al crear el equipo";
+			respuesta.agregarMensaje(mensajeUsuario);
 			respuesta.setEstado(EstadoRespuestaEnum.ERROR);
 			respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
 		}
@@ -103,7 +103,7 @@ public class EquipoControlador {
 			respuesta.setEstado(EstadoRespuestaEnum.ERROR);
 			respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
 		} catch (Exception excepcion) {
-			String mensajeUsuario = "Se ha presentado un problema inesperado modificando la información del país";
+			String mensajeUsuario = "Se ha presentado un problema inesperado modificando la información del equipo";
 			respuesta.agregarMensaje(mensajeUsuario);
 			respuesta.setEstado(EstadoRespuestaEnum.ERROR);
 			respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
@@ -124,7 +124,7 @@ public class EquipoControlador {
 
 			if (datosValidos) {
 				equipoFachada.borrar(id);
-				String mensajeUsuario = "La información del país se ha dado de baja exitosamente";
+				String mensajeUsuario = "La información del equipo se ha dado de baja exitosamente";
 				respuesta.agregarMensaje(mensajeUsuario);
 				respuesta.setEstado(EstadoRespuestaEnum.EXITO);
 				respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.OK);
@@ -160,7 +160,7 @@ public class EquipoControlador {
 			if (datosValidos) {
 				List<Equipo> listaEquipos = new ArrayList<>();
 				listaEquipos.add(equipoFachada.obtenerPorId(id));
-				String mensajeUsuario = "La información del país se ha consultado exitosamente";
+				String mensajeUsuario = "La información del equipo se ha consultado exitosamente";
 				respuesta.agregarMensaje(mensajeUsuario);
 				respuesta.setEstado(EstadoRespuestaEnum.EXITO);
 				respuesta.setResultado(listaEquipos);
@@ -189,11 +189,11 @@ public class EquipoControlador {
 		Respuesta<Equipo> respuesta = new Respuesta<>();
 
 		try {
-			List<Equipo> listaPaises = equipoFachada.obtenerTodos();
+			List<Equipo> listaEquipos = equipoFachada.obtenerTodos();
 			String mensajeUsuario = "La información de los equipos se ha consultado exitosamente";
 			respuesta.agregarMensaje(mensajeUsuario);
 			respuesta.setEstado(EstadoRespuestaEnum.EXITO);
-			respuesta.setResultado(listaPaises);
+			respuesta.setResultado(listaEquipos);
 			respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.OK);
 		} catch (PILAEExcepcion excepcion) {
 			respuesta.agregarMensaje(excepcion.getTextoUsuario());

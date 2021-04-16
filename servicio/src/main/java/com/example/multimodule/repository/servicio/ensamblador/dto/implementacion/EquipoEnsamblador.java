@@ -16,8 +16,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class EquipoEnsamblador implements EnsambladorDTO<Equipo, EquipoDominio> {
 
-	@Autowired
 	private ModelMapper modelMapper = new ModelMapper();
+
 	private static final EnsambladorDTO<Equipo, EquipoDominio> instancia = new EquipoEnsamblador();
 
 	private EquipoEnsamblador() {

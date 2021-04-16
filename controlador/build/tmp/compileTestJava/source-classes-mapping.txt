@@ -1,0 +1,2 @@
+com/example/multimodule/EquipoControladorTest.java
+ com.example.multimodule.EquipoControladorTest

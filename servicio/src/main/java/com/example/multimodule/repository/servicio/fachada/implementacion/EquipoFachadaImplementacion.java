@@ -47,8 +47,8 @@ public class EquipoFachadaImplementacion implements EquipoFachada {
 			throw PILAEDominioExcepcion.crear(TipoExcepcionEnum.NEGOCIO, mensajeUsuario, mensajeTecnico);
 		}
 
-		EquipoDominio paisDominio = EquipoEnsamblador.obtenerEquipoEnsambladorDTO().ensamblarDominio(equipo);
-		equipoServicio.crear(paisDominio,torneoId);
+		EquipoDominio equipoDominio = EquipoEnsamblador.obtenerEquipoEnsambladorDTO().ensamblarDominio(equipo);
+		equipoServicio.crear(equipoDominio,torneoId);
 	}
 
 	@Override
