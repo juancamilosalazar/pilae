@@ -26,11 +26,9 @@ public class TorneoRepositorioImpl implements TorneoRepositorio {
     }
 
     @Override
-    public List<Torneo> obtenerTorneos() throws Exception {
+    public List<TorneoEntidad> obtenerTorneos() throws Exception {
         try{
-            return torneoRepositorio.findAll().parallelStream()
-                    .map(entity -> modelMapper.map(entity, Torneo.class))
-                    .collect(Collectors.toList());
+            return torneoRepositorio.findAll();
         }catch (Exception e){
             logger.debug(e.getMessage());
             throw new  Exception(e.getMessage());
@@ -39,13 +37,13 @@ public class TorneoRepositorioImpl implements TorneoRepositorio {
     }
 
     @Override
-    public Torneo obtenerTroneoPorId(Long id) throws Exception {
+    public TorneoEntidad obtenerTroneoPorId(Long id) throws Exception {
         TorneoEntidad equipoEntity = torneoRepositorio
                 .findById(id).orElseThrow(() -> {
                     logger.debug("entidad con id: "+id+"no encontrada");
                     return new Exception("Entidad no encontrada");
                 });
-        return modelMapper.map(equipoEntity, Torneo.class);
+        return equipoEntity;
     }
 
 }

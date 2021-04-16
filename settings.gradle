@@ -6,4 +6,5 @@ include 'servicio'
 include 'infraestructura'
 include 'transversal'
 include 'entidad'
+include 'dominio'
 

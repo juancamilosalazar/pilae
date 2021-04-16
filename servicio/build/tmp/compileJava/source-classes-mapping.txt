@@ -1,4 +1,8 @@
-com/example/multimodule/repository/servicio/impl/EquipoServicioImpl.java
- com.example.multimodule.repository.servicio.impl.EquipoServicioImpl
 com/example/multimodule/repository/servicio/EquipoServicio.java
  com.example.multimodule.repository.servicio.EquipoServicio
+com/example/multimodule/repository/servicio/utilitario/TorneoConvertorUtilitario.java
+ com.example.multimodule.repository.servicio.utilitario.TorneoConvertorUtilitario
+com/example/multimodule/repository/servicio/impl/EquipoServicioImpl.java
+ com.example.multimodule.repository.servicio.impl.EquipoServicioImpl
+com/example/multimodule/repository/servicio/utilitario/EquipoConvertorUtilitario.java
+ com.example.multimodule.repository.servicio.utilitario.EquipoConvertorUtilitario

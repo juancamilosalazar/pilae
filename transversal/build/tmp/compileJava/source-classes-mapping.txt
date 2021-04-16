@@ -1,0 +1,18 @@
+com/example/multimodule/transversal/respuesta/Respuesta.java
+ com.example.multimodule.transversal.respuesta.Respuesta
+com/example/multimodule/transversal/utilitarios/UtilObjeto.java
+ com.example.multimodule.transversal.utilitarios.UtilObjeto
+com/example/multimodule/transversal/respuesta/EstadoRespuestaEnum.java
+ com.example.multimodule.transversal.respuesta.EstadoRespuestaEnum
+com/example/multimodule/transversal/excepciones/base/ComponenteEnum.java
+ com.example.multimodule.transversal.excepciones.base.ComponenteEnum
+com/example/multimodule/transversal/utilitarios/ParametroDTO.java
+ com.example.multimodule.transversal.utilitarios.ParametroDTO
+com/example/multimodule/transversal/excepciones/PILAEExcepcion.java
+ com.example.multimodule.transversal.excepciones.PILAEExcepcion
+com/example/multimodule/transversal/utilitarios/UtilTexto.java
+ com.example.multimodule.transversal.utilitarios.UtilTexto
+com/example/multimodule/transversal/excepciones/base/BaseExcepcion.java
+ com.example.multimodule.transversal.excepciones.base.BaseExcepcion
+com/example/multimodule/transversal/excepciones/base/TipoExcepcionEnum.java
+ com.example.multimodule.transversal.excepciones.base.TipoExcepcionEnum
