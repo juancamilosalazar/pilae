@@ -7,9 +7,15 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
         </processorPath>
-        <module name="gs-multi-module.entidad.main" />
+        <module name="gs-multi-module.Pilae_entidad.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="gs-multi-module.Mensajaes_repositorio" target="11" />
+      <module name="gs-multi-module.Mensajaes_repositorio.main" target="11" />
+      <module name="gs-multi-module.Mensajaes_repositorio.test" target="11" />
+      <module name="gs-multi-module.mensajes-dto.main" target="11" />
+      <module name="gs-multi-module.mensajes-dto.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

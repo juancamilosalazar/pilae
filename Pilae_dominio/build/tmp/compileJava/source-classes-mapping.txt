@@ -1,0 +1,13 @@
+com/example/multimodule/dominio/reglas/implementacion/EquipoDominioReglaValidacion.java
+ com.example.multimodule.dominio.reglas.implementacion.EquipoDominioReglaValidacion
+ com.example.multimodule.dominio.reglas.implementacion.EquipoDominioReglaValidacion$1
+com/example/multimodule/dominio/TorneoDominio.java
+ com.example.multimodule.dominio.TorneoDominio
+com/example/multimodule/dominio/reglas/ReglaValidacion.java
+ com.example.multimodule.dominio.reglas.ReglaValidacion
+com/example/multimodule/dominio/reglas/enumerador/ReglaEnum.java
+ com.example.multimodule.dominio.reglas.enumerador.ReglaEnum
+com/example/multimodule/dominio/DeporteDominio.java
+ com.example.multimodule.dominio.DeporteDominio
+com/example/multimodule/dominio/EquipoDominio.java
+ com.example.multimodule.dominio.EquipoDominio

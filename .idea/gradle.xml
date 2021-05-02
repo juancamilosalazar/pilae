@@ -9,12 +9,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/controlador" />
-            <option value="$PROJECT_DIR$/dominio" />
-            <option value="$PROJECT_DIR$/dto" />
-            <option value="$PROJECT_DIR$/entidad" />
-            <option value="$PROJECT_DIR$/infraestructura" />
-            <option value="$PROJECT_DIR$/servicio" />
+            <option value="$PROJECT_DIR$/Mensajes_controlador" />
+            <option value="$PROJECT_DIR$/Mensajes_dto" />
+            <option value="$PROJECT_DIR$/Mensajes_repositorio" />
+            <option value="$PROJECT_DIR$/Mensajes_servicio" />
+            <option value="$PROJECT_DIR$/Pilae_controlador" />
+            <option value="$PROJECT_DIR$/Pilae_dominio" />
+            <option value="$PROJECT_DIR$/Pilae_dto" />
+            <option value="$PROJECT_DIR$/Pilae_entidad" />
+            <option value="$PROJECT_DIR$/Pilae_infraestructura" />
+            <option value="$PROJECT_DIR$/Pilae_servicio" />
+            <option value="$PROJECT_DIR$/Pilae_transversal" />
             <option value="$PROJECT_DIR$/transversal" />
           </set>
         </option>

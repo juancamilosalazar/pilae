@@ -1,0 +1,4 @@
+com/pilae/mensajes/dao/AplicacionDAO.java
+ com.pilae.mensajes.dao.AplicacionDAO
+com/pilae/mensajes/dao/impl/redis/AplicacionRedisDAO.java
+ com.pilae.mensajes.dao.impl.redis.AplicacionRedisDAO

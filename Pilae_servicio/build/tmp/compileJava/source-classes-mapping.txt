@@ -1,0 +1,20 @@
+com/example/multimodule/repository/servicio/utilitario/TorneoConvertorUtilitario.java
+ com.example.multimodule.repository.servicio.utilitario.TorneoConvertorUtilitario
+com/example/multimodule/repository/servicio/negocio/impl/EquipoServicioImpl.java
+ com.example.multimodule.repository.servicio.negocio.impl.EquipoServicioImpl
+com/example/multimodule/repository/servicio/ensamblador/dto/EnsambladorDTO.java
+ com.example.multimodule.repository.servicio.ensamblador.dto.EnsambladorDTO
+com/example/multimodule/repository/servicio/ensamblador/entidad/implementacion/EquipoEnsambladorEntidad.java
+ com.example.multimodule.repository.servicio.ensamblador.entidad.implementacion.EquipoEnsambladorEntidad
+com/example/multimodule/repository/servicio/fachada/implementacion/EquipoFachadaImplementacion.java
+ com.example.multimodule.repository.servicio.fachada.implementacion.EquipoFachadaImplementacion
+com/example/multimodule/repository/servicio/negocio/EquipoServicio.java
+ com.example.multimodule.repository.servicio.negocio.EquipoServicio
+com/example/multimodule/repository/servicio/utilitario/EquipoConvertorUtilitario.java
+ com.example.multimodule.repository.servicio.utilitario.EquipoConvertorUtilitario
+com/example/multimodule/repository/servicio/ensamblador/dto/implementacion/EquipoEnsamblador.java
+ com.example.multimodule.repository.servicio.ensamblador.dto.implementacion.EquipoEnsamblador
+com/example/multimodule/repository/servicio/fachada/EquipoFachada.java
+ com.example.multimodule.repository.servicio.fachada.EquipoFachada
+com/example/multimodule/repository/servicio/ensamblador/entidad/EnsambladorEntidad.java
+ com.example.multimodule.repository.servicio.ensamblador.entidad.EnsambladorEntidad

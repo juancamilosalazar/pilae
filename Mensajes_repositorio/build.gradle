@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.pilae.mensajes'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.4.5'
+
+    implementation project(':transversal')
+    implementation project(':Mensajes_dto')
+    // https://mvnrepository.com/artifact/redis.clients/jedis
+    implementation group: 'redis.clients', name: 'jedis', version: '3.6.0'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+}

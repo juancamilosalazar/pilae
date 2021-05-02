@@ -1,22 +1,16 @@
-com/example/multimodule/transversal/respuesta/Respuesta.java
- com.example.multimodule.transversal.respuesta.Respuesta
-com/example/multimodule/transversal/utilitarios/UtilObjeto.java
- com.example.multimodule.transversal.utilitarios.UtilObjeto
-com/example/multimodule/transversal/respuesta/EstadoRespuestaEnum.java
- com.example.multimodule.transversal.respuesta.EstadoRespuestaEnum
-com/example/multimodule/transversal/excepciones/base/ComponenteEnum.java
- com.example.multimodule.transversal.excepciones.base.ComponenteEnum
-com/example/multimodule/transversal/utilitarios/ParametroDTO.java
- com.example.multimodule.transversal.utilitarios.ParametroDTO
-com/example/multimodule/transversal/excepciones/PILAEExcepcion.java
- com.example.multimodule.transversal.excepciones.PILAEExcepcion
-com/example/multimodule/transversal/utilitarios/UtilTexto.java
- com.example.multimodule.transversal.utilitarios.UtilTexto
-com/example/multimodule/transversal/excepciones/base/BaseExcepcion.java
- com.example.multimodule.transversal.excepciones.base.BaseExcepcion
-com/example/multimodule/transversal/excepciones/base/TipoExcepcionEnum.java
- com.example.multimodule.transversal.excepciones.base.TipoExcepcionEnum
-com/example/multimodule/transversal/excepciones/PILAETransversalExepcion.java
- com.example.multimodule.transversal.excepciones.PILAETransversalExepcion
-com/example/multimodule/transversal/excepciones/PILAEDominioExcepcion.java
- com.example.multimodule.transversal.excepciones.PILAEDominioExcepcion
+com/pilae/mensajes/transversal/mensajes/excepciones/ComponenteEnum.java
+ com.pilae.mensajes.transversal.mensajes.excepciones.ComponenteEnum
+com/pilae/mensajes/transversal/mensajes/utilitarios/UtilObjeto.java
+ com.pilae.mensajes.transversal.mensajes.utilitarios.UtilObjeto
+com/pilae/mensajes/transversal/mensajes/utilitarios/UtilTexto.java
+ com.pilae.mensajes.transversal.mensajes.utilitarios.UtilTexto
+com/pilae/mensajes/transversal/mensajes/respuesta/rest/EstadoRespuestaEnum.java
+ com.pilae.mensajes.transversal.mensajes.respuesta.rest.EstadoRespuestaEnum
+com/pilae/mensajes/transversal/mensajes/excepciones/TipoExcepcionEnum.java
+ com.pilae.mensajes.transversal.mensajes.excepciones.TipoExcepcionEnum
+com/pilae/mensajes/transversal/mensajes/respuesta/rest/Respuesta.java
+ com.pilae.mensajes.transversal.mensajes.respuesta.rest.Respuesta
+com/pilae/mensajes/transversal/mensajes/excepciones/BaseExcepcion.java
+ com.pilae.mensajes.transversal.mensajes.excepciones.BaseExcepcion
+com/pilae/mensajes/transversal/mensajes/utilitarios/ParametroDTO.java
+ com.pilae.mensajes.transversal.mensajes.utilitarios.ParametroDTO
