@@ -1,0 +1,8 @@
+com/pilae/mensajes/transversal/mensajes/transversal/excepciones/MensajesExcepcion.java
+ com.pilae.mensajes.transversal.mensajes.transversal.excepciones.MensajesExcepcion
+com/pilae/mensajes/transversal/mensajes/transversal/utilitario/CodigosMensajesBase.java
+ com.pilae.mensajes.transversal.mensajes.transversal.utilitario.CodigosMensajesBase
+ com.pilae.mensajes.transversal.mensajes.transversal.utilitario.CodigosMensajesBase$CodigosCatalogoMensajes
+com/pilae/mensajes/transversal/mensajes/transversal/utilitario/CatalogoMensajes.java
+ com.pilae.mensajes.transversal.mensajes.transversal.utilitario.CatalogoMensajes
+ com.pilae.mensajes.transversal.mensajes.transversal.utilitario.CatalogoMensajes$1

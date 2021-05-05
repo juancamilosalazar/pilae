@@ -7,6 +7,7 @@ import com.pilae.mensajes.dao.AplicacionDAO;
 import com.pilae.mensajes.dto.AplicacionDTO;
 import com.pilae.mensajes.transversal.mensajes.utilitarios.UtilObjeto;
 import com.pilae.mensajes.transversal.mensajes.utilitarios.UtilTexto;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
@@ -26,7 +27,7 @@ public class AplicacionRedisDAO implements AplicacionDAO {
 
 	@Override
 	public void crear(AplicacionDTO aplicacion) {
-		operaciones.put("APLICACION", aplicacion.getCodigo(), aplicacion);
+		operaciones.put("pilae", aplicacion.getCodigo(), aplicacion);
 	}
 
 	@Override
@@ -36,7 +37,7 @@ public class AplicacionRedisDAO implements AplicacionDAO {
 
 	@Override
 	public void eliminar(AplicacionDTO aplicacion) {
-		operaciones.delete("APLICACION", aplicacion.getCodigo());
+		operaciones.delete("pilae", aplicacion.getCodigo());
 	}
 
 	@Override
@@ -46,13 +47,13 @@ public class AplicacionRedisDAO implements AplicacionDAO {
 		if (!UtilObjeto.objetoEsNulo(aplicacion) && !UtilTexto.estaVacia(aplicacion.getCodigo())) {
 			listaRetorno = new ArrayList<>();
 
-			AplicacionDTO aplicacionTmp = operaciones.entries("APLICACION").get(aplicacion.getCodigo());
+			AplicacionDTO aplicacionTmp = operaciones.entries("pilae").get(aplicacion.getCodigo());
 
 			if (!UtilObjeto.objetoEsNulo(aplicacionTmp)) {
 				listaRetorno.add(aplicacionTmp);
 			}
 		} else {
-			listaRetorno = new ArrayList<>(operaciones.entries("APLICACION").values());
+			listaRetorno = new ArrayList<>(operaciones.entries("pilae").values());
 		}
 
 		return listaRetorno;

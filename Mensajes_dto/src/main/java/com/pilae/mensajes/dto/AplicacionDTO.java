@@ -15,7 +15,7 @@ public class AplicacionDTO implements Serializable {
 	private String nombre;
 	private List<MensajeDTO> mensajes;
 
-	private AplicacionDTO() {
+	public AplicacionDTO() {
 		super();
 	}
 

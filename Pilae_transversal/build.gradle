@@ -25,5 +25,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
-
+    implementation project(':Mensajes_transversal')
+    implementation project(':transversal')
+    implementation project(':Mensajes_dto')
 }

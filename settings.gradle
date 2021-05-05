@@ -13,4 +13,5 @@ include 'Mensajes_controlador'
 include 'transversal'
 include 'Mensajes_dto'
 include 'Mensajes_repositorio'
+include 'Mensajes_transversal'
 

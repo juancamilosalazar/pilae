@@ -2,6 +2,8 @@ com/pilae/mensajes/dto/MensajeDTO.java
  com.pilae.mensajes.dto.MensajeDTO
 com/pilae/mensajes/enumerador/CategoriaMensajeEnum.java
  com.pilae.mensajes.enumerador.CategoriaMensajeEnum
+com/pilae/mensajes/main.java
+ com.pilae.mensajes.main
 com/pilae/mensajes/enumerador/TipoMensajeEnum.java
  com.pilae.mensajes.enumerador.TipoMensajeEnum
 com/pilae/mensajes/dto/AplicacionDTO.java

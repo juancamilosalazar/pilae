@@ -3,10 +3,10 @@ package com.example.multimodule.controlador;
 import com.example.multimodule.dto.Equipo;
 import com.example.multimodule.repository.servicio.fachada.EquipoFachada;
 import com.example.multimodule.transversal.excepciones.PILAEExcepcion;
+import com.example.multimodule.transversal.mensajes.CodigosMensajes;
 import com.example.multimodule.transversal.respuesta.EstadoRespuestaEnum;
 import com.example.multimodule.transversal.respuesta.Respuesta;
 import com.example.multimodule.transversal.utilitarios.UtilObjeto;
-import com.example.multimodule.repository.servicio.negocio.EquipoServicio;
 import com.example.multimodule.utilitario.Validadores;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.example.multimodule.transversal.mensajes.MensajesHelper.obtenerMensaje;
 
 @RestController
 public class EquipoControlador {
@@ -47,7 +49,7 @@ public class EquipoControlador {
 
 			if (datosValidos) {
 				equipoFachada.crear(equipo,torneoId);
-				String mensajeUsuario = "equipo creado";
+				String mensajeUsuario = obtenerMensaje(CodigosMensajes.CodigosPaisControlador.USUARIO_INFORMACION_CREAR_EQUIPO).getContenido();
 				respuesta.agregarMensaje(mensajeUsuario);
 				respuesta.setEstado(EstadoRespuestaEnum.EXITO);
 				respuestaSolicitud = new ResponseEntity<>(respuesta, HttpStatus.OK);
@@ -190,7 +192,7 @@ public class EquipoControlador {
 
 		try {
 			List<Equipo> listaEquipos = equipoFachada.obtenerTodos();
-			String mensajeUsuario = "La información de los equipos se ha consultado exitosamente";
+			String mensajeUsuario = obtenerMensaje(CodigosMensajes.CodigosPaisControlador.USUARIO_INFORMACION_OBTENER_EQUIPO).getContenido();
 			respuesta.agregarMensaje(mensajeUsuario);
 			respuesta.setEstado(EstadoRespuestaEnum.EXITO);
 			respuesta.setResultado(listaEquipos);

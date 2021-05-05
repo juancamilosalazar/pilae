@@ -20,33 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156ebbdd-e54b-4640-83b8-e0a7144bcbd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mensajes_controlador/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_controlador/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_controlador/src/main/java/com/pilae/mensajes/MensajesApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_controlador/src/main/java/com/pilae/mensajes/controlador/MensajeControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_dto/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/dto/AplicacionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/dto/MensajeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/enumerador/CategoriaMensajeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/enumerador/TipoMensajeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_repositorio/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_repositorio/src/main/java/com/pilae/mensajes/dao/AplicacionDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_repositorio/src/main/java/com/pilae/mensajes/dao/impl/redis/AplicacionRedisDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_servicio/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_servicio/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_servicio/src/main/java/com/pilae/mensajes/negocio/MensajeNegocio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mensajes_servicio/src/main/java/com/pilae/mensajes/negocio/impl/MensajeNegocioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pilae_controlador/build/classes/java/test/com/example/multimodule/EquipoControladorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pilae_transversal/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pilae_transversal/build/bootJarMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/excepciones/BaseExcepcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/excepciones/ComponenteEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/excepciones/TipoExcepcionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/respuesta/rest/EstadoRespuestaEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/respuesta/rest/Respuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/utilitarios/ParametroDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/utilitarios/UtilObjeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/utilitarios/UtilTexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mensajes_repositorio/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mensajes_transversal/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mensajes_transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/transversal/excepciones/MensajesExcepcion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mensajes_transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/transversal/utilitario/CatalogoMensajes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mensajes_transversal/src/main/java/com/pilae/mensajes/transversal/mensajes/transversal/utilitario/CodigosMensajesBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/configuracion/Configurador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/CodigosMensajes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/MensajesEstrategia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/MensajesHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/implementacion/CacheMensajes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -63,139 +47,36 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/bootJarMainClassName" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/bootJarMainClassName" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/bootRunMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/classes/java/main/com/example/multimodule/PilaeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/classes/java/main/com/example/multimodule/PilaeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/classes/java/main/com/example/multimodule/controlador/EquipoControlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/classes/java/main/com/example/multimodule/controlador/EquipoControlador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/classes/java/main/com/example/multimodule/utilitario/ConversorDeDataUtilitario.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/classes/java/main/com/example/multimodule/utilitario/ConversorDeDataUtilitario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/classes/java/main/com/example/multimodule/utilitario/Validadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/classes/java/main/com/example/multimodule/utilitario/Validadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/classes/java/test/com/example/multimodule/EquipoControladorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/libs/controlador-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_controlador/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/src/main/java/com/example/multimodule/PilaeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/PilaeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/src/main/java/com/example/multimodule/controlador/EquipoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/controlador/EquipoControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/src/main/java/com/example/multimodule/utilitario/ConversorDeDataUtilitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/utilitario/ConversorDeDataUtilitario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/src/main/java/com/example/multimodule/utilitario/Validadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/utilitario/Validadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/src/test/java/com/example/multimodule/EquipoControladorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/test/java/com/example/multimodule/EquipoControladorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/bootJarMainClassName" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/bootRunMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/classes/java/main/com/example/multimodule/dominio/DeporteDominio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/classes/java/main/com/example/multimodule/dominio/DeporteDominio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/classes/java/main/com/example/multimodule/dominio/EquipoDominio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/classes/java/main/com/example/multimodule/dominio/EquipoDominio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/classes/java/main/com/example/multimodule/dominio/TorneoDominio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/classes/java/main/com/example/multimodule/dominio/TorneoDominio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/ReglaValidacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/ReglaValidacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/enumerador/ReglaEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/enumerador/ReglaEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/implementacion/EquipoDominioReglaValidacion$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/implementacion/EquipoDominioReglaValidacion$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/implementacion/EquipoDominioReglaValidacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/classes/java/main/com/example/multimodule/dominio/reglas/implementacion/EquipoDominioReglaValidacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/libs/dominio-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/src/main/java/com/example/multimodule/dominio/DeporteDominio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/src/main/java/com/example/multimodule/dominio/DeporteDominio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/src/main/java/com/example/multimodule/dominio/EquipoDominio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/src/main/java/com/example/multimodule/dominio/EquipoDominio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/src/main/java/com/example/multimodule/dominio/TorneoDominio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/src/main/java/com/example/multimodule/dominio/TorneoDominio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/src/main/java/com/example/multimodule/dominio/reglas/ReglaValidacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/src/main/java/com/example/multimodule/dominio/reglas/ReglaValidacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/src/main/java/com/example/multimodule/dominio/reglas/enumerador/ReglaEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/src/main/java/com/example/multimodule/dominio/reglas/enumerador/ReglaEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dominio/src/main/java/com/example/multimodule/dominio/reglas/implementacion/EquipoDominioReglaValidacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/src/main/java/com/example/multimodule/dominio/reglas/implementacion/EquipoDominioReglaValidacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build/bootJarMainClassName" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dominio/build/bootJarMainClassName" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build/classes/java/main/com/example/multimodule/dto/Deporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/build/classes/java/main/com/example/multimodule/dto/Deporte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build/classes/java/main/com/example/multimodule/dto/Equipo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/build/classes/java/main/com/example/multimodule/dto/Equipo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build/classes/java/main/com/example/multimodule/dto/Torneo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/build/classes/java/main/com/example/multimodule/dto/Torneo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build/libs/dto-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/src/main/java/com/example/multimodule/dto/Deporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/src/main/java/com/example/multimodule/dto/Deporte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/src/main/java/com/example/multimodule/dto/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/src/main/java/com/example/multimodule/dto/Equipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/src/main/java/com/example/multimodule/dto/Torneo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/src/main/java/com/example/multimodule/dto/Torneo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build/bootJarMainClassName" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_dto/build/bootJarMainClassName" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build/classes/java/main/com/example/multimodule/entidad/DeporteEntidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/build/classes/java/main/com/example/multimodule/entidad/DeporteEntidad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build/classes/java/main/com/example/multimodule/entidad/EquipoEntidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/build/classes/java/main/com/example/multimodule/entidad/EquipoEntidad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build/classes/java/main/com/example/multimodule/entidad/TorneoEntidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/build/classes/java/main/com/example/multimodule/entidad/TorneoEntidad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build/libs/entidad-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/src/main/java/com/example/multimodule/entidad/DeporteEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/src/main/java/com/example/multimodule/entidad/DeporteEntidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/src/main/java/com/example/multimodule/entidad/EquipoEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/src/main/java/com/example/multimodule/entidad/EquipoEntidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entidad/src/main/java/com/example/multimodule/entidad/TorneoEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/src/main/java/com/example/multimodule/entidad/TorneoEntidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build/bootJarMainClassName" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_entidad/build/bootJarMainClassName" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build/classes/java/main/com/example/multimodule/infraestructura/equipo/EquipoRepositorioJpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/build/classes/java/main/com/example/multimodule/infraestructura/equipo/EquipoRepositorioJpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build/classes/java/main/com/example/multimodule/infraestructura/torneo/TorneoRepositorioJpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/build/classes/java/main/com/example/multimodule/infraestructura/torneo/TorneoRepositorioJpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build/libs/infraestructura-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/src/main/java/com/example/multimodule/infraestructura/equipo/EquipoRepositorioJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/src/main/java/com/example/multimodule/infraestructura/equipo/EquipoRepositorioJpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/src/main/java/com/example/multimodule/infraestructura/torneo/TorneoRepositorioJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/src/main/java/com/example/multimodule/infraestructura/torneo/TorneoRepositorioJpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructura/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/bootJarMainClassName" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_infraestructura/build/bootJarMainClassName" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/dto/EnsambladorDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/dto/EnsambladorDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/dto/implementacion/EquipoEnsamblador.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/dto/implementacion/EquipoEnsamblador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/entidad/EnsambladorEntidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/entidad/EnsambladorEntidad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/entidad/implementacion/EquipoEnsambladorEntidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/ensamblador/entidad/implementacion/EquipoEnsambladorEntidad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/fachada/EquipoFachada.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/fachada/EquipoFachada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/fachada/implementacion/EquipoFachadaImplementacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/fachada/implementacion/EquipoFachadaImplementacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/negocio/EquipoServicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/negocio/EquipoServicio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/negocio/impl/EquipoServicioImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/negocio/impl/EquipoServicioImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/utilitario/EquipoConvertorUtilitario.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/utilitario/EquipoConvertorUtilitario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/classes/java/main/com/example/multimodule/repository/servicio/utilitario/TorneoConvertorUtilitario.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/classes/java/main/com/example/multimodule/repository/servicio/utilitario/TorneoConvertorUtilitario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/libs/servicio-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/dto/EnsambladorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/dto/EnsambladorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/dto/implementacion/EquipoEnsamblador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/dto/implementacion/EquipoEnsamblador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/entidad/EnsambladorEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/entidad/EnsambladorEntidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/entidad/implementacion/EquipoEnsambladorEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/ensamblador/entidad/implementacion/EquipoEnsambladorEntidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/fachada/EquipoFachada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/fachada/EquipoFachada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/fachada/implementacion/EquipoFachadaImplementacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/fachada/implementacion/EquipoFachadaImplementacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/negocio/EquipoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/negocio/EquipoServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/negocio/impl/EquipoServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/negocio/impl/EquipoServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/utilitario/EquipoConvertorUtilitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/utilitario/EquipoConvertorUtilitario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio/src/main/java/com/example/multimodule/repository/servicio/utilitario/TorneoConvertorUtilitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/src/main/java/com/example/multimodule/repository/servicio/utilitario/TorneoConvertorUtilitario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_controlador/build/classes/java/main/com/pilae/mensajes/MensajesApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_controlador/build/classes/java/main/com/pilae/mensajes/MensajesApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_controlador/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_controlador/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_controlador/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_controlador/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_controlador/src/main/java/com/pilae/mensajes/MensajesApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_controlador/src/main/java/com/pilae/mensajes/MensajesApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_controlador/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_controlador/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_dto/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_dto/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_dto/build/classes/java/main/com/pilae/mensajes/dto/AplicacionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_dto/build/classes/java/main/com/pilae/mensajes/dto/AplicacionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_dto/build/classes/java/main/com/pilae/mensajes/dto/MensajeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_dto/build/classes/java/main/com/pilae/mensajes/dto/MensajeDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_dto/build/libs/Mensajes_dto-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_dto/build/libs/Mensajes_dto-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_dto/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_dto/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/dto/AplicacionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/dto/AplicacionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/dto/MensajeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/dto/MensajeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_repositorio/build/classes/java/main/com/pilae/mensajes/dao/impl/redis/AplicacionRedisDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_repositorio/build/classes/java/main/com/pilae/mensajes/dao/impl/redis/AplicacionRedisDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_repositorio/build/libs/Mensajes_repositorio-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_repositorio/build/libs/Mensajes_repositorio-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mensajes_repositorio/src/main/java/com/pilae/mensajes/dao/impl/redis/AplicacionRedisDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mensajes_repositorio/src/main/java/com/pilae/mensajes/dao/impl/redis/AplicacionRedisDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/build/classes/java/main/com/example/multimodule/controlador/EquipoControlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/classes/java/main/com/example/multimodule/controlador/EquipoControlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/build/libs/Pilae_controlador-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/libs/Pilae_controlador-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/controlador/EquipoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/controlador/EquipoControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_controlador/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_controlador/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_transversal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_transversal/build/libs/Pilae_transversal-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/libs/Pilae_transversal-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilae_transversal/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/transversal/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/bootJarMainClassName" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_servicio/build/bootJarMainClassName" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/PILAEDominioExcepcion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/PILAEDominioExcepcion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/PILAEExcepcion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/PILAEExcepcion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/PILAETransversalExepcion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/PILAETransversalExepcion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/base/BaseExcepcion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/base/BaseExcepcion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/base/ComponenteEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/base/ComponenteEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/base/TipoExcepcionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/excepciones/base/TipoExcepcionEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/respuesta/EstadoRespuestaEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/respuesta/EstadoRespuestaEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/respuesta/Respuesta.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/respuesta/Respuesta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/utilitarios/ParametroDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/utilitarios/ParametroDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/utilitarios/UtilObjeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/utilitarios/UtilObjeto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/classes/java/main/com/example/multimodule/transversal/utilitarios/UtilTexto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/classes/java/main/com/example/multimodule/transversal/utilitarios/UtilTexto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/libs/transversal-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/excepciones/PILAEDominioExcepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/excepciones/PILAEDominioExcepcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/excepciones/PILAEExcepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/excepciones/PILAEExcepcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/excepciones/PILAETransversalExepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/excepciones/PILAETransversalExepcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/excepciones/base/BaseExcepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/excepciones/base/BaseExcepcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/excepciones/base/ComponenteEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/excepciones/base/ComponenteEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/excepciones/base/TipoExcepcionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/excepciones/base/TipoExcepcionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/respuesta/EstadoRespuestaEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/respuesta/EstadoRespuestaEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/respuesta/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/respuesta/Respuesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/utilitarios/ParametroDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/utilitarios/ParametroDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/utilitarios/UtilObjeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/utilitarios/UtilObjeto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transversal/src/main/java/com/example/multimodule/transversal/utilitarios/UtilTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/utilitarios/UtilTexto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,10 +157,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mensajes_repositorio/src/main/java/com/pilae/mensajes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mensajes_repositorio/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -289,16 +171,16 @@
       <recent name="com.example.multimodule.repository.application.utilitario" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Mensajes_repositorio\src\main\java\com\pilae\mensajes" />
-      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Mensajes_dto\src\main\java\com\pilae\mensajes" />
-      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\transversal\src\main\java\com\pilae\mensajes" />
-      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\transversal" />
-      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Mensajes_transversal" />
+      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Mensajes_repositorio\src\main\resources" />
+      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Pilae_controlador\src\main\java\com\example\multimodule" />
+      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Mensajes_transversal\src\main\java\com\pilae\mensajes\transversal\mensajes" />
+      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Pilae_transversal\src\main\java\com\example\multimodule\transversal\mensajes" />
+      <recent name="D:\JuanCamilo\Documents\UNIVERSIDAD\semestre10\proyecto de grado\gs-multi-module\complete\Pilae_transversal\src\main\java\com\example\multimodule\transversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MensajesApiApplication (1)">
-    <configuration name="MensajesApiApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pilae.mensajes.MensajesApiApplication" />
+  <component name="RunManager" selected="Application.MensajesApiApplication">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pilae.mensajes.Main" />
       <module name="gs-multi-module.Mensajes_controlador.main" />
       <extension name="coverage">
         <pattern>
@@ -311,11 +193,11 @@
       </method>
     </configuration>
     <configuration name="MensajesApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pilae.mensajes.controlador.inicializador.MensajesApiApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.pilae.mensajes.MensajesApiApplication" />
       <module name="gs-multi-module.Mensajes_controlador.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pilae.mensajes.controlador.*" />
+          <option name="PATTERN" value="com.pilae.mensajes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,51 +218,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="complete [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pilae.mensajes.dao.impl.redis.main" />
+      <module name="gs-multi-module.Mensajes_repositorio.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pilae.mensajes.dao.impl.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="complete [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pilae.mensajes.main" />
+      <module name="gs-multi-module.Mensajes_dto.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pilae.mensajes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.complete [build]" />
-        <item itemvalue="Gradle.complete [clean]" />
-        <item itemvalue="Application.MensajesApiApplication (1)" />
-        <item itemvalue="Application.PilaeApplication" />
+        <item itemvalue="Application.main (1)" />
         <item itemvalue="Application.MensajesApiApplication" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.PilaeApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -413,10 +283,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="382" y="0" width="616" height="728" key="#PilaeApplication" timestamp="1619918419703">
+    <state x="382" y="0" width="616" height="728" key="#PilaeApplication" timestamp="1620013670511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="382" y="0" width="616" height="728" key="#PilaeApplication/0.0.1366.728@0.0.1366.728" timestamp="1619918419703" />
+    <state x="382" y="0" width="616" height="728" key="#PilaeApplication/0.0.1366.728@0.0.1366.728" timestamp="1620013670511" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1616463368821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -429,6 +299,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="53" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1619918253018" />
+    <state x="385" y="233" width="595" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1620081225790">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="385" y="233" width="595" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1620081225790" />
     <state x="48" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618549534224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -437,10 +311,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616470055888" />
-    <state x="438" y="0" key="#xdebugger.evaluate" timestamp="1618554936579">
+    <state x="438" y="0" key="#xdebugger.evaluate" timestamp="1620097472039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="438" y="0" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1618554936579" />
+    <state x="438" y="0" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1620097472039" />
     <state x="426" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619939460020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -449,46 +323,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619937487684" />
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1619941028470">
+    <state width="1323" height="283" key="GridCell.Tab.0.bottom" timestamp="1620237056378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619941028470" />
-    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1619941028470">
+    <state width="1323" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620237056378" />
+    <state width="1323" height="283" key="GridCell.Tab.0.center" timestamp="1620237056378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619941028470" />
-    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1619941028470">
+    <state width="1323" height="283" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620237056378" />
+    <state width="1323" height="283" key="GridCell.Tab.0.left" timestamp="1620237056378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619941028470" />
-    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1619941028470">
+    <state width="1323" height="283" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620237056378" />
+    <state width="1323" height="283" key="GridCell.Tab.0.right" timestamp="1620237056378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619941028470" />
-    <state width="1323" height="35" key="GridCell.Tab.1.bottom" timestamp="1618555176779">
+    <state width="1323" height="283" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620237056378" />
+    <state width="1323" height="47" key="GridCell.Tab.1.bottom" timestamp="1620165110149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618555176779" />
-    <state width="1323" height="35" key="GridCell.Tab.1.center" timestamp="1618555176779">
+    <state width="1323" height="47" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620165110149" />
+    <state width="1323" height="47" key="GridCell.Tab.1.center" timestamp="1620165110149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1618555176779" />
-    <state width="1323" height="35" key="GridCell.Tab.1.left" timestamp="1618555176779">
+    <state width="1323" height="47" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1620165110149" />
+    <state width="1323" height="47" key="GridCell.Tab.1.left" timestamp="1620165110149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1618555176779" />
-    <state width="1323" height="35" key="GridCell.Tab.1.right" timestamp="1618555176779">
+    <state width="1323" height="47" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1620165110149" />
+    <state width="1323" height="47" key="GridCell.Tab.1.right" timestamp="1620165110149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1618555176779" />
-    <state x="391" y="81" width="744" height="566" key="find.popup" timestamp="1618555224781">
+    <state width="1323" height="47" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1620165110149" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1620014516036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="81" width="744" height="566" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1618555224781" />
-    <state x="82" y="0" key="new project wizard" timestamp="1619939524697">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1620014516036" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1620015025530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="82" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1619939524697" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1620015025530" />
+    <state x="391" y="81" width="744" height="566" key="find.popup" timestamp="1620081901875">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="81" width="744" height="566" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1620081901875" />
+    <state x="82" y="0" key="new project wizard" timestamp="1620009874941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="82" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1620009874941" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,6 +379,46 @@
           <url>file://$PROJECT_DIR$/Pilae_infraestructura/src/main/java/com/example/multimodule/infraestructura/torneo/impl/TorneoRepositorioImpl.java</url>
           <line>30</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pilae_controlador/src/main/java/com/example/multimodule/controlador/EquipoControlador.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/implementacion/CacheMensajes.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/MensajesHelper.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/MensajesHelper.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pilae_transversal/src/main/java/com/example/multimodule/transversal/mensajes/implementacion/CacheMensajes.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mensajes_dto/src/main/java/com/pilae/mensajes/main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mensajes_servicio/src/main/java/com/pilae/mensajes/negocio/impl/MensajeNegocioImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mensajes_repositorio/src/main/java/com/pilae/mensajes/dao/impl/redis/AplicacionRedisDAO.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

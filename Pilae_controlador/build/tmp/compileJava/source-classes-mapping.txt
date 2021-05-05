@@ -6,3 +6,5 @@ com/example/multimodule/controlador/EquipoControlador.java
  com.example.multimodule.controlador.EquipoControlador
 com/example/multimodule/utilitario/ConversorDeDataUtilitario.java
  com.example.multimodule.utilitario.ConversorDeDataUtilitario
+com/example/multimodule/configuracion/Configurador.java
+ com.example.multimodule.configuracion.Configurador

@@ -19,6 +19,7 @@ dependencies {
 	implementation project(':Pilae_servicio')
 	implementation project(':Pilae_dto')
 	implementation project(':Pilae_transversal')
+	implementation project(':Mensajes_dto')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.modelmapper:modelmapper:2.3.4'
 

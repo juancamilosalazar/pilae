@@ -4,6 +4,7 @@ package com.pilae.mensajes;
 import com.pilae.mensajes.dto.AplicacionDTO;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.redis.connection.RedisPassword;
@@ -17,6 +18,7 @@ import java.time.Duration;
 
 @SpringBootApplication
 @ComponentScan(basePackages = { "com.pilae.mensajes" })
+@EnableCaching
 public class MensajesApiApplication {
 
 
@@ -26,7 +28,7 @@ public class MensajesApiApplication {
 		configuracionRedis.setHostName("redis-17748.c266.us-east-1-3.ec2.cloud.redislabs.com");
 		configuracionRedis.setPort(17748);
 		configuracionRedis.setDatabase(0);
-		configuracionRedis.setPassword(RedisPassword.of("RqMhU6mLhGC5n6dkIhuZoCihZDtA3VeI"));
+		configuracionRedis.setPassword(RedisPassword.of("conexionaredisdesdeequipocliente56451541564"));
 
 		JedisClientConfiguration.JedisClientConfigurationBuilder configuracionJedis = JedisClientConfiguration.builder();
 		configuracionJedis.connectTimeout(Duration.ofSeconds(60));
